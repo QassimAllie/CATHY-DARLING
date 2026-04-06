@@ -563,7 +563,7 @@
   function sendWhatsApp() {
     const { msg } = collectAnswers();
     const encoded = encodeURIComponent(msg);
-    const url = `https://wa.me/00263786807912?text=${encoded}`;
+    const url = `https://wa.me/+263786807912?text=${encoded}`;
     window.open(url, '_blank');
     showToast();
   }
